@@ -282,7 +282,7 @@ function splitString(target: Object, propertyKey: string, descriptor: PropertyDe
 	return descriptor; // Return the updated descriptor
 }
 
-// write a reverse decorator
+// write a reverse decorator update
 function _reverse(target: Object, propertyKey: string, descriptor: PropertyDescriptor): PropertyDescriptor {
 	const originalMethod = descriptor.value; // Save a reference to the original method
 
